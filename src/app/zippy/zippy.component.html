@@ -1,0 +1,9 @@
+<div class="zippy">
+  <div class="zippy-heading" [class.expanded]="isExpended" (click)="toggle()">
+    {{title}} ({{notes}})
+  </div>
+  <div *ngIf="isExpended" class="zippy-body">
+    <ng-content></ng-content>
+  </div>
+</div>
+<!--  -->

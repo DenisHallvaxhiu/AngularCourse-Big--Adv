@@ -1,0 +1,14 @@
+*{
+  font-size: 30px;
+}
+
+.tweet>i {
+  cursor: pointer;
+  color:#ccc;
+}
+
+.tweet > i.isActive{
+  color: deeppink;
+}
+
+/*  */
